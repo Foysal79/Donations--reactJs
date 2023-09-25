@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "category": "Health",
+        "picture": "https://i.ibb.co/Q70jQxd/h-1.jpg",
+        "title": "The Power of Mindfulness: A Path to Stress Reduction",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#0055ff26",
+        "textColor": "#0052FF",
+        "description": "In today's fast-paced world, stress has become a common part of our lives. This article explores how practicing mindfulness can be a powerful tool for reducing stress and promoting mental well-being. Learn simple mindfulness techniques and their benefits for a healthier, more balanced life.",
+        "price": 200
+    },
+    {
+        "id": 2,
+        "category": "Education",
+        "picture": "https://i.ibb.co/71ypgmR/e-1.jpg",
+        "title": "The Future of Learning: Embracing Online Education",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#ff444a26",
+        "textColor": "#FF444A",
+        "description": "Online education has transformed the way we learn. This article explores the advantages and challenges of digital learning platforms and how they are shaping the future of education. Discover how online education can offer flexibility and accessibility, empowering learners of all ages to pursue their educational goals.",
+        "price": 300
+    },
+    {
+        "id": 3,
+        "category": "Clothing",
+        "picture": "https://i.ibb.co/kyyXtgF/c.jpg",
+        "title": "The Evolution of Denim: From Workwear to Fashion Staple",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#79c23f26",
+        "textColor": "#79C23F",
+        "description": "Denim jeans have come a long way from their humble beginnings as durable workwear. This article traces the fascinating history of denim and its transformation into a timeless fashion icon. Explore the enduring appeal of denim and its versatility in contemporary wardrobes.",
+        "price": 150
+    },
+    {
+        "id": 4,
+        "category": "Food",
+        "picture": "https://i.ibb.co/DWYp81N/f-1.jpg",
+        "title": "Farm-to-Table Dining: Connecting with Fresh Flavors",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#f8714726",
+        "textColor": "#F87147",
+        "description": "Dive into the farm-to-table dining experience and discover how it's redefining our culinary landscape. This article explores the benefits of sourcing local, seasonal ingredients and the connection between farmers, chefs, and consumers. Get ready to savor the deliciousness of food that's close to its source.",
+        "price": 200
+    },
+    {
+        "id": 5,
+        "category": "Food",
+        "picture": "https://i.ibb.co/M7qbNSK/f-2.jpg",
+        "title": "Plant-Based Eating: A Healthier and Sustainable Lifestyle",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#f8714726",
+        "textColor": "#F87147",
+        "description": "Embrace the world of plant-based eating and learn about its numerous health and environmental advantages. This article highlights the benefits of incorporating more fruits, vegetables, and plant-based proteins into your diet. Discover how this lifestyle choice can improve your well-being while reducing your carbon footprint.",
+        "price": 200
+    },
+    {
+        "id": 6,
+        "category": "Clothing",
+        "picture": "https://i.ibb.co/7jGJkSR/c-2.jpg",
+        "title": "Dressing for Success: The Psychology of Professional Attire",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#79c23f26",
+        "textColor": "#79C23F",
+        "description": "Your choice of clothing can significantly impact how you're perceived in the professional world. In this article, we delve into the psychology of professional attire, providing insights into the importance of dressing appropriately for career success. Discover tips for making a positive impression in the workplace through your clothing.",
+        "price": 150
+    },
+    {
+        "id": 7,
+        "category": "Education",
+        "picture": "https://i.ibb.co/Vqf20k7/e-2.jpg",
+        "title": "STEM Education: Fostering Tomorrow's Innovators",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#ff444a26",
+        "textColor": "#FF444A",
+        "description": "Science, Technology, Engineering, and Mathematics (STEM) education is crucial in preparing students for the jobs of the future. This article highlights the importance of STEM education, its impact on critical thinking and problem-solving skills, and strategies for engaging students in STEM subjects. Join the movement to inspire the next generation of innovators!",
+        "price": 300
+    },
+    {
+        "id": 8,
+        "category": "Health",
+        "picture": "https://i.ibb.co/Mgwt0tX/h-2.jpg",
+        "title": "Nutrition Tips for a Stronger Immune System",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#0055ff26",
+        "textColor": "#0052FF",
+        "description": "A strong immune system is vital for staying healthy. This article provides valuable nutrition tips and dietary choices that can help boost your immune system's resilience. Discover the foods and nutrients that can play a key role in keeping you protected against illnesses.",
+        "price": 200
+    },
+    {
+        "id": 9,
+        "category": "Health",
+        "picture": "https://i.ibb.co/cg3n4Cj/h-4.jpg",
+        "title": "Exercise Essentials: Building a Sustainable Fitness Routine",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#0055ff26",
+        "textColor": "#0052FF",
+        "description": "Maintaining a consistent exercise routine is crucial for overall health. This article delves into the essentials of building a sustainable fitness regimen, including setting realistic goals, finding enjoyable workouts, and overcoming common obstacles. Start your journey toward a healthier lifestyle today!",
+        "price": 200
+    },
+    {
+        "id": 10,
+        "category": "Education",
+        "picture": "https://i.ibb.co/hRqf39x/e-3.jpg",
+        "title": "The Role of Arts Education in Holistic Development",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#ff444a26",
+        "textColor": "#FF444A",
+        "description": "Arts education goes beyond creativity; it nurtures well-rounded individuals. This article explores how arts education contributes to holistic development, enhancing emotional intelligence, communication skills, and cultural appreciation. Discover why a comprehensive education includes a strong emphasis on the arts.",
+        "price": 300
+    },
+    {
+        "id": 11,
+        "category": "Clothing",
+        "picture": "https://i.ibb.co/nm1tST9/c-3.jpg",
+        "title": "The Art of Layering: Mastering the Stylish Transition",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#79c23f26",
+        "textColor": "#79C23F",
+        "description": "Layering is a key technique for achieving both style and comfort in your outfits. This article offers practical advice on mastering the art of layering, from choosing the right garments to creating stylish combinations. Learn how to adapt your clothing to changing temperatures while looking effortlessly chic.",
+        "price": 150
+    },
+    {
+        "id": 12,
+        "category": "Food",
+        "picture": "https://i.ibb.co/YNw17Dq/f-3.jpg",
+        "title": "Global Gastronomy: Exploring Culinary Delights from Around the World",
+        "categoryBgColor": "#FFF",
+        "cardBgColor": "#f8714726",
+        "textColor": "#F87147",
+        "description": "Embark on a culinary journey as we explore the rich tapestry of global cuisine. From spicy Thai curries to comforting Italian pasta dishes, this article celebrates the diversity of flavors and techniques from different corners of the world. Get ready to expand your palate and experience the joy of international gastronomy.",
+        "price": 200
+    }
+]
