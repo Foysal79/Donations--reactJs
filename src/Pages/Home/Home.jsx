@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div className='w-full mb-48'>
             <Banner></Banner>
-            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 w-[1300px] mx-auto gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:w-[1300px] lg:mx-auto gap-6'>
                {
                 cards.map(card => <Card key={card.id} card={card} ></Card>)
                }

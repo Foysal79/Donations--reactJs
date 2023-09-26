@@ -13,9 +13,11 @@ const Card = ({ card }) => {
     cardBgColor,
     textColor,
     description,
-    price,
-  } = card || {};
+    price } = card || {};
+
+    
   return (
+    
     <Link to={`/card/${id}`}>
     <div style={{backgroundColor:cardBgColor}} className="card   shadow-xl ">
       <figure>
@@ -25,7 +27,7 @@ const Card = ({ card }) => {
         />
       </figure>
       <div className="card-body">
-        <div>
+        <div className='mb-8'>
         
           <button style={{color:textColor, backgroundColor:categoryBgColor}} className={`btn px-6`}>{category}</button>
         </div>
