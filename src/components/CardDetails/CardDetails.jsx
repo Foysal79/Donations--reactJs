@@ -40,7 +40,7 @@ const CardDetails = ({ card }) => {
           <img className="w-[1320px] h-[700px]" src={picture} />
           <div className="absolute bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-80">
             <button onClick={handelAddToDonate}
-              style={{ backgroundColor: textColor, color: "#FFFF" }}
+              style={{ backgroundColor: textColor, color: "#FFF" }}
               className="btn">
               Donate ${price}
             </button>

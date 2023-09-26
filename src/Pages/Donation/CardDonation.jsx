@@ -6,7 +6,7 @@ const CardDonation = ({ donation }) => {
   return (
     <div style={{backgroundColor: cardBgColor }} className="card lg:card-side bg-base-100 shadow-xl">
       <figure>
-        <img
+        <img className="h-full"
           src={picture}
           alt="Album"
         />
