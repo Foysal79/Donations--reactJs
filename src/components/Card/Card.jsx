@@ -32,7 +32,7 @@ const Card = ({ card }) => {
           <button style={{color:textColor, backgroundColor:categoryBgColor}} className={`btn px-6`}>{category}</button>
         </div>
 
-        <h3 className="font-semibold text-xl">{title}</h3>
+        <h3 style={{color:textColor}} className="font-semibold text-xl">{title}</h3>
         
       </div>
     </div>

@@ -37,8 +37,8 @@ const CardDetails = ({ card }) => {
       <div >
       
         <div className="relative">
-          <img className="w-[1320px] h-[700px]" src={picture} />
-          <div className="absolute bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-80">
+          <img className="w-[1320px] h-[600px]" src={picture} />
+          <div className="absolute bottom-0 left-0 right-0 px-4 py-6 bg-gray-800 opacity-80">
             <button onClick={handelAddToDonate}
               style={{ backgroundColor: textColor, color: "#FFF" }}
               className="btn">

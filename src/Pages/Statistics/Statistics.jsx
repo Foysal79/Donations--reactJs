@@ -5,14 +5,15 @@ import DynamicPieChart from "./DynamicPieChart ";
 const Statistics = () => {
   const [donations, setDonations] = useState(0);
   const [total, setTotal] = useState(0);
+  const [itemLength, setItemLength] = useState(0);
  
   useEffect(() => {
              fetch('/data.json')
              .then(res => res.json())
-             .then(data => setTotal(data.reduce((pre, carr) => pre + carr.price, 0)))
+             .then(data => setTotal(data.length))
  
   },[])
- 
+  console.log(total);
     
 
   useEffect(() => {
@@ -21,14 +22,15 @@ const Statistics = () => {
     {
         const total = donation.reduce((pre, carr) => pre + carr.price, 0)
         setDonations(total);
+        setItemLength(donation.length);
     }
   }, []);
    
-       
+       console.log(itemLength);
   
 
   const data = [
-    { name: 'my donation', value: donations },
+    { name: 'my donation', value: itemLength },
     { name: 'total donation', value: total }
   ];
      

@@ -4,7 +4,7 @@ import CardDetails from "./CardDetails";
 
 
 const CardsDetails = ({inputValue}) => {
-    console.log(inputValue);
+    
     const {id} = useParams();
     const  [card, setCard] = useState([]);
     const cards = useLoaderData();
