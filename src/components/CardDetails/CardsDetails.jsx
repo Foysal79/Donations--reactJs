@@ -3,7 +3,8 @@ import { useLoaderData, useParams } from "react-router-dom";
 import CardDetails from "./CardDetails";
 
 
-const CardsDetails = () => {
+const CardsDetails = ({inputValue}) => {
+    console.log(inputValue);
     const {id} = useParams();
     const  [card, setCard] = useState([]);
     const cards = useLoaderData();

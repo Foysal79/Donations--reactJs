@@ -6,6 +6,7 @@ import Donation from "../Pages/Donation/Donation";
 import Statistics from "../Pages/Statistics/Statistics";
 
 import CardsDetails from "../components/CardDetails/CardsDetails";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
 
 
 
@@ -13,6 +14,7 @@ const CreateMyRoutes = createBrowserRouter([
     {
       path: "/",
       element: <MainLayOuts></MainLayOuts>,
+      errorElement : <ErrorPage></ErrorPage>,
       children: [ 
         {
             path : "/",

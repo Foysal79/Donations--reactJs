@@ -23,7 +23,7 @@ const Card = ({ card }) => {
       <figure>
         <img className="image-container"
           src={picture}
-          alt="Shoes"
+          alt="coming soon...."
         />
       </figure>
       <div className="card-body">

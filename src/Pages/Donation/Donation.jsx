@@ -27,8 +27,7 @@ const Donation = () => {
     return (
         <div>
             {
-            noFound ? ( <p className='h-[80vh] flex justify-center items-center'>{noFound}</p> ) : 
-            ( <h1 className='flex justify-center items-center pt-4 text-3xl font-bold'>total Donations : {totalDonations} $</h1> )
+            noFound ? ( <p className='h-[80vh] flex justify-center items-center'>{noFound}</p> ) : ('')
             }
             
             
@@ -42,7 +41,7 @@ const Donation = () => {
                 }
             </div>
             {
-                donations.length > 4  && (isShow? "" :(<button onClick={()=> setIsShow(!isShow)} className={`px-5 py-4 rounded-lg bg-black text-white block mx-auto   `}>
+                donations.length > 4  && (isShow? "" :(<button onClick={()=> setIsShow(!isShow)} className={`px-5 py-4 rounded-lg bg-[#009444] text-white block mx-auto   `}>
                     SEE ALL
                 </button>))
             }

@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-
+import './navber.css';
 const Navbar = () => {
     return (
         <div className="flex  lg:justify-between items-center w-[1300px] mx-auto">

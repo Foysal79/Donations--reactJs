@@ -1,4 +1,4 @@
-
+import './card.css';
 
 const CardDonation = ({ donation }) => {
   const {id, category,title,picture,categoryBgColor,cardBgColor, textColor,price} = donation || {};
@@ -6,7 +6,7 @@ const CardDonation = ({ donation }) => {
   return (
     <div style={{backgroundColor: cardBgColor }} className="card lg:card-side bg-base-100 shadow-xl">
       <figure>
-        <img className="h-full"
+        <img className="pic"
           src={picture}
           alt="Album"
         />
